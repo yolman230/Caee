@@ -181,8 +181,18 @@ aside{
 #S, #M, #N, #E{
     display: inline-block;
     float: left;
+    margin-top: 1em;
 }
 
 #E{
     margin-left: 12em;
+}
+article{
+    border: 1px solid;
+    margin-top: 4em;
+}
+#I{
+    margin-left: 12em;
+    width: 40%;
+    text-align: justify;
 }
