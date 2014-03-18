@@ -134,19 +134,25 @@ a:hover{
 }
 
 header{
-    border: 3px solid;
     margin: 0 auto;
     max-width: 90%;
     text-align: center;
 }
 header h1, nav{
     display: inline-block;
-    max-width: 100%;
-    vertical-align: middle;
+    max-width: 90%;
+    
 }
+#logo{
+    float: left;
+    max-width: 280px;
+    max-height: 188px;
+    position: absolute;
 
+}
 /* empezamos la botonera */
 nav {
+    margin-left: 21em;
     padding: 0;
     
 }
@@ -194,5 +200,5 @@ article{
 #I{
     margin-left: 12em;
     width: 40%;
-    text-align: justify;
+    text-align: 
 }
