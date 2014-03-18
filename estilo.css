@@ -179,3 +179,18 @@ nav li  a:hover{
     padding-bottom: .5em;
 }
 */
+/* aqui empezamos el slider*/
+/* aqui termina slider*/
+
+/* aqui empezamos la barra despues de el slider*/
+aside{
+
+    margin: 0;
+    padding: 10%;
+
+}
+#S, #M, #N, #E{
+    border: 1px solid;
+    display: inline-block;
+    float: left;
+}
