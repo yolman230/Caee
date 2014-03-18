@@ -150,6 +150,9 @@ header h1, nav{
     position: absolute;
 
 }
+#slider{
+
+}
 /* empezamos la botonera */
 nav {
     margin-left: 21em;
@@ -173,7 +176,7 @@ nav li a{
 nav li  a:hover{
     background-color: #256280;
     border-radius: .5em;
-    margin-top: -.5em;
+    margin-top: .5em;
     padding-bottom: .5em;
 }
 */
