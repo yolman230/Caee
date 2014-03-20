@@ -70,7 +70,7 @@ nav li {
 /* aqui aplicamos los colores y la fuentes y tamaños */
 nav li a{
     font-family: "latoregular";
-    font-size: 1em;
+    font-size: 1,99em;
     text-decoration: none;
     float: left;
     padding: .5em;
