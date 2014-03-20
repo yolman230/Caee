@@ -145,6 +145,7 @@ header h1, nav{
 }
 #logo{
     float: left;
+    margin-top: -1em;
     max-width: 280px;
     max-height: 188px;
     position: absolute;
