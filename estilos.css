@@ -1,0 +1,37 @@
+body{
+	background: red;
+	font-size: arial;
+	font-size: 16px;
+	margin: 0;
+}
+header{
+	margin: 0;
+	padding: 0,5em;
+}
+header #logo img{
+	float: left;
+	margin: -1em 0 0 0;
+	width: 140px;
+	
+}
+nav{
+	background: #5680a2;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+nav ul li a{
+	font-family: "latoregular";
+    font-size: 1,99em;
+    text-decoration: none;
+    float: left;
+    padding: .5em;
+    background-color: #5680a2;
+    color: #fff;
+}
