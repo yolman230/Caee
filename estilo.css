@@ -19,10 +19,15 @@ article,figcaption,figure,footer,header,hgroup,nav,section {
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 /* terminamos la importacion de fuentes  #5680a2 */
+img{
+    max-width: 100%;
+}
+.clear{
+    clear: both;
+}
 
 body{
-	background: #5680a2 url();
-	color: #fff;
+	background: #E9E7E5; url();
 	font-family: "latobold";
 	font-size: 16px;
 }
@@ -48,17 +53,17 @@ header h1, nav{
     
 }
 #logo{
+
     float: left;
     margin-top: -1em;
-    max-width: 280px;
-    max-height: 188px;
     position: absolute;
 }
-#slider{
-
+#color{
+    background-color: #5680a2;
 }
 /* empezamos la botonera */
 nav {
+
     margin-left: 21em;
     padding: 0;
     
@@ -68,14 +73,24 @@ nav li {
 }
 /* aqui aplicamos los colores y la fuentes y tamaños */
 nav li a{
+    border-right: 1px solid #fff;
+    background-color: #5680a2;
     font-family: "latoregular";
     font-size: 1,99em;
+    text-align: center;
     text-decoration: none;
+    text-indent: 0.5em;
     float: left;
     padding: .5em;
-    background-color: #5680a2;
     color: #fff;
+    
 }
+nav li:last-child a{
+    border-right: 0;
+}
+
+nav a#pull{
+    display: none;}
 /* aqui aplicamos es efecto de mover en mause encima cambie de forma*/
 nav li  a:hover{
     background-color: #256280;
@@ -84,27 +99,65 @@ nav li  a:hover{
 }
 */
 /* aqui empezamos el slider*/
+
 /* aqui termina slider*/
 
 /* aqui empezamos la barra despues de el slider*/
-aside{
+.cont{
+    width: 100%;
+    margin: 0 auto; 
+}
+.conte{
+    width: 80%;
+    margin: 0 auto;
+}
+.S{
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+}
+.M{
+    float: left;
+    margin:0 auto;
+    width: 25%;
+}
+#slider{
+    margin-top: -0.5em;
+}
+/* aqui terminamos la barra despues de el slider*/
+/* aqui empezamos los article*/
+
+#I{
+    display: inline-block;
+    margin-left: 8em; 
+    text-align: justify;
+    width: 38%;
 
 }
-#S, #M, #N, #E{
+#D{
+    display: inline-block;
+    float: right;
+    margin-right: 7em;
+    text-align: justify;
+    width: 40%;
+}
+.w{
     display: inline-block;
     float: left;
-    margin-top: 1em;
+    margin-left:3em; 
 }
-
-#E{
-    margin-left: 12em;
-}
-article{
-    border: 1px solid;
+/* aqui Terminamos los article*/
+/* aqui empezamos los dos horizontal*/
+.G{
+    background-color: #D7D7D7;
     margin-top: 4em;
 }
-#I{
-    margin-left: 12em;
-    width: 40%;
-    text-align: 
+#f{
+    display: inline-block;
+    float: right;
+
+}
+.T{
+    margin-left: 5em;
+    width: 50%;
 }

@@ -1,0 +1,122 @@
+img{
+	max-width: 100%;
+}
+.clear:before, .clear:after{
+	content: "";
+	display: table;
+}
+.clear:after{
+	clear: both;
+}
+.clear{
+	*zoom:1;
+}
+#contendido{
+	width: 1024px;
+	margin: 0 auto;	
+}
+
+#barra{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.S{
+	float: left;
+}
+.cont{
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+
+}/* 
+#logo{
+    float: left;
+    margin-top: -1em;
+    position: absolute;
+}
+/* menue de navegacion */
+
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: red;
+	font-weight: bold;
+	}
+
+nav ul{
+	padding: 0;
+	height: 40px;
+	width: 600px;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+
+nav a{
+	border-right: 1px solid green;
+	color: #fff;
+	display: inline-block;
+	width: 99px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+nav li:last-child a{
+	border-right: 0;
+}
+nav a:hover, nav a:active{
+	background-color: green;
+}
+
+nav a#pull{
+	display: none;
+}
+nav li#f{
+	margin-left: 2em;
+}
+#slideshow{
+  width:100%;
+  height: auto;
+}
+
+.slide {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 480px){
+	.cont{
+		width: 100%;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull{
+		display: block;
+		background-color: red;
+		width: 100%;
+		position: relative;
+		text-align: left;
+		text-indent: 25px;
+	}
+	nav a#pull:after{
+		content: "";
+		background: url(nav.png);
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+	
+}
+@media screen and (min-width: 480px) and (max-width: 1024px){
+	
+}

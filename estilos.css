@@ -1,8 +1,13 @@
+img{
+	max-width: 100%;
+}
 body{
-	background: red;
+	background: #5680a2;
 	font-size: arial;
 	font-size: 16px;
 	margin: 0;
+	max-width: 100%;
+	min-width: 480px;
 }
 header{
 	margin: 0;
@@ -10,12 +15,31 @@ header{
 }
 header #logo img{
 	float: left;
-	margin: -1em 0 0 0;
+	margin-top: -1em;
+	margin-left: 2em;
+	position: absolute;
 	width: 140px;
 	
 }
+#contenido {
+	background: red;
+	width: 100%
+}
+#contenido #slider{
+	margin: 0 auto;
+	width: 100%;
+
+}
+#contenido #slider img{
+	max-width: 960px;
+	min-width: 480px;
+	margin: 0 auto;
+
+
+}
 nav{
-	background: #5680a2;
+	margin-left: 11em;
+
 }
 nav ul {
 	list-style: none;
@@ -35,3 +59,17 @@ nav ul li a{
     background-color: #5680a2;
     color: #fff;
 }
+
+nav ul li  a:hover{
+    background-color: #256280;
+    border-radius: .5em;
+    padding-bottom: .5em;
+}
+
+nav ul li #f{
+	background: red;
+	content: "\e601";
+	font-family: "icomoon";
+}
+
+
