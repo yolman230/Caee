@@ -1,0 +1,289 @@
+/* reseteo universal */
+
+*
+{
+    border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+article,figcaption,figure,footer,header,hgroup,nav,section {
+    display: block;
+}
+
+/*termina reseteo universal*/
+
+
+/* importamos las fuentes a utilizar */
+
+/* terminamos la importacion de fuentes  #5680a2 */
+img, audio, iframe, video{
+    max-width: 100%;
+}
+.clear{
+    clear: both;
+}
+
+body{
+	background: #E9E7E5;
+	font-family:  'Lato';
+	font-size: 16px;
+}
+
+a{
+    color: #57abb8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f60;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 90%;
+   
+}
+header h1, nav{
+    display: inline-block;
+    max-width: 90%;
+    
+}
+
+
+#logo{
+
+    float: left;
+    margin-top: -2em;
+    position: absolute;
+}
+#color{
+    background-color: #5680a2;
+}
+/* empezamos la botonera */
+nav {
+
+    margin-left: 20em;
+    padding: 0;
+    
+}
+nav li {
+    display: inline;
+}
+/* aqui aplicamos los colores y la fuentes y tamaños */
+nav li a{
+    border-right: 1px solid #fff;
+    background-color: #5680a2;
+    font-family: "latoregular";
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0.7em;
+    float: left;
+    padding: 0.5em;
+    color: #fff;
+    
+}
+nav li:last-child a{
+    border-right: 0;
+}
+
+nav a#pull{
+    display: none;}
+/* aqui aplicamos es efecto de mover en mause encima cambie de forma*/
+nav li  a:hover{
+    background-color: #256280;
+    border-radius: .5em;
+    
+}
+
+/* aqui empezamos el slider*/
+
+/* aqui termina slider*/
+
+/* aqui empezamos la barra despues de el slider*/
+.cont{
+    width: 100%;
+    margin: 0 auto; 
+}
+.conte{
+    width: 80%;
+    margin: 0 auto;
+}
+.S{
+    float: left;
+    margin: 0 auto;
+    width: 25%;
+}
+.M{
+    float: left;
+    margin:0 auto;
+    width: 25%;
+}
+#slider{
+    margin-top: -0.5em;
+}
+/* aqui terminamos la barra despues de el slider*/
+/* aqui empezamos los article*/
+.conteimg{
+    width: 100%;
+    margin: 0 0 0 0;
+    float: right;
+
+
+}
+#titu{
+
+    text-align: center;
+    margin: 4em 0 0 6em;
+}
+
+.I{
+    
+    display: inline-block;
+    float: left;
+    font-size: 1.3em;
+    margin: 2.8em 0 0 0;
+    position: absolute;
+    text-align: justify;
+    width: 38%;
+
+}
+#D{
+    
+    display: inline-block;
+    float: right;
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 1em 0;
+    width: 48%;
+    
+}
+.w{
+    display: inline-block;
+    float: left;
+    margin: 0 2em;
+
+     
+}
+
+/* aqui Terminamos los article*/
+/* aqui empezamos los dos horizontal*/
+#line{
+    width: 100%;
+    margin: 15em 0 0 0;
+    position: absolute;
+}
+.res{
+    width: 200px;
+}
+.H{
+    background: #d7d7d7;
+    color: #9A9E90;
+    height: 120px;
+    margin: 20em 0 0 0;
+    position: relative;
+}
+.L{
+    background: #DFDFDF;
+    color: #9A9E90;
+    height: 120px;
+    margin-top: -4em;
+
+}
+.B{    
+    margin-top: 4em;
+    margin-left: 8em;
+    width: 30%;
+    
+}
+.F{
+    float: right;
+    margin: -6.5em 0 1em 0;
+    position:static;
+    width: 40%  
+}
+.J{
+    margin-top: 5em;
+    margin-left: 8em;
+    width: 30%;
+
+}
+.K{
+    float: right;
+    margin: -6.5em 0 0 0;
+    position: static;
+    width: 40%
+
+}
+/* aqui terminamos  los dos horizontal*/
+/* aqui empezamos los footer*/
+footer{
+    width: 100%;
+    margin: 50em 0 0 0;
+    position: absolute;
+}
+#X{
+    text-align: center;
+    color: #9A9E90;
+    font-size: .6em;
+}
+#conlogo{
+    margin: 0 auto;
+    width: 90%;
+    position: static;
+
+}
+.C{
+   
+    display: inline-block;
+    margin-left: 8em;
+    padding: 0.5em;
+    
+
+}
+.A{
+
+    display: inline-block;
+    margin-top: -4em; 
+    margin-left: -5em;
+    position: relative;
+    
+}
+
+#P{
+    margin-left:2em; 
+    margin-top: -10em;
+}
+#r{
+    color: #9A9E90;
+    display: inline-block;
+    float: left;
+    margin-left: 27em;
+    margin-top:-3em; 
+}
+#f{
+    color: #9A9E90;
+    display: inline-block;
+    float: left;
+    margin-left: 40em;
+    margin-top: -3em;
+}
+#v{
+    color: #9A9E90;
+    display: inline-block;
+    float: right;
+    margin-right: 5em;
+    margin-top: -3em;
+}
+.Q{
+    width: 80px;
+    margin-top: -1em;
+    margin-right: 5.5em;
+    display: inline-block;
+    float: right;
+    
+}
+/* aqui empezamos los medias query */
+
